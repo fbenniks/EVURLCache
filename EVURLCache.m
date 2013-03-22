@@ -32,7 +32,7 @@ static NSString* _preCacheDirectory;
 	[NSURLCache setSharedURLCache:urlCache];
 }
 
-// initializing the cache. Only used by the method above.
+// initializing the cache. Only used by the  method above.
 -(id)initWithMemoryCapacity:(NSUInteger)memoryCapacity diskCapacity:(NSUInteger)diskCapacity diskPath:(NSString *)diskPath {
     if ((self = [super initWithMemoryCapacity:memoryCapacity diskCapacity:diskCapacity diskPath:diskPath])) {
 	}
